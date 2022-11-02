@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
+    <RootNamespace>BS.to_Manager</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>BS.to.ico</ApplicationIcon>
+    <SupportedOSPlatformVersion>10.0.22621.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BS.to.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="BS.to.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BS.to.png" />
+  </ItemGroup>
+
+</Project>
